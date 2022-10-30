@@ -21,13 +21,13 @@ public class m {
         Toplam Tutar : 21.68 TL
 
          */
-        double Armut= 2.14;
+        double Armut= 2.14;//menu
         double Elma= 3.67;
         double Domates= 1.11;
         double Muz= 0.95;
         double Patlıcan= 5.00;
 
-        Scanner dat = new Scanner(System.in);
+        Scanner dat = new Scanner(System.in);//user enter the quantity...
         System.out.println("Armut kaç kilo= ");
         int Arm=dat.nextInt();
         System.out.println("Elma kaç kilo= ");
